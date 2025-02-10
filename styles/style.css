@@ -1,0 +1,711 @@
+.header-section {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+  gap: 20px;
+ 
+}
+
+.header-section-images {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.header-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-section-content a {
+  text-decoration: none;
+  color: #000022;
+}
+
+.header-section-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 10px;
+}
+
+.header-section-buttons .button-log {
+  border-radius: 10px;
+  padding: 11px 28px;
+  background-color: white;
+  border: 1px solid #1f64ff;
+  color: #1f64ff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.header-section-buttons .button-sign {
+  border-radius: 10px;
+  padding: 11px 28px;
+  border: none;
+  background-color: #1f64ff;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.header-section {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+  gap: 20px;
+}
+
+.header-section-images {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.header-section-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header-section-content a {
+  text-decoration: none;
+  color: #000022;
+}
+
+.header-section-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-section-buttons .button-log {
+  border-radius: 10px;
+  padding: 11px 28px;
+  background-color: white;
+  border: 1px solid #1f64ff;
+  color: #1f64ff;
+  font-weight: 700;
+  font-size: 16px;
+  flex: 1 1 auto;
+}
+
+.header-section-buttons .button-sign {
+  border-radius: 10px;
+  padding: 11px 30px;
+  border: none;
+  background-color: #1f64ff;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1050px) {
+  .header-section {
+    flex-wrap: wrap;
+  }
+
+  .header-section-content {
+    justify-content: center;
+    flex-wrap: wrap;
+    order: 2;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .header-section-buttons {
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-section-content {
+    order: 3;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-section-buttons {
+    flex-shrink: 1;
+    order: 2;
+    max-width: 240px;
+    flex-wrap: nowrap;
+  }
+}
+
+.about-section-container {
+  background: #ffff;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  padding: 100px 10px;
+  font-family: "Lato", sans-serif;
+}
+.about-us-title {
+  color: #000022;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 57.6px;
+}
+.about-us-content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-us-logo {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.about-us-list ul > li {
+  list-style-type: circle;
+}
+
+.about-us-list li::marker {
+  color: #1f64ff;
+}
+.line {
+  border: 2px solid #1f64ff;
+  border-radius: 5px;
+  width: 50px;
+  height: 4px;
+  background-color: #1f64ff;
+}
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 500px) {
+  .about-us-logo {
+    margin-bottom: 30px;
+  }
+  .about-us-content {
+    flex-direction: column;
+    align-items: normal;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  .about-us-image {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .about-us-rate-it {
+    order: 1;
+  }
+
+  .about-us-list {
+    order: 2;
+  }
+}
+
+.FAQ-section {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 100px;
+  margin: 0 auto;
+}
+
+.FAQ-section-top h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.FAQ-section-top button {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  border-radius: 6px;
+  width: 500px;
+  margin: auto;
+  align-items: center;
+  background: #f5f6fa;
+  display: flex;
+  border: none;
+  padding: 16px 10px;
+  gap: 5px;
+}
+
+.FAQ-section-top .border {
+  border-top: 5px solid #1f64ff;
+  width: 49px;
+  margin: 20px auto 55px auto;
+}
+
+.FAQ-section-content {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+
+.FAQ-section-content p {
+  padding-top: 10px;
+}
+
+.FAQ-section-content span {
+  padding-bottom: 5px;
+  display: flex;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.FAQ-section-down {
+  font-family: "Lato", sans-serif;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.FAQ-section-down button {
+  margin: auto 0;
+  background-color: #1f64ff;
+  color: white;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 700px) {
+  .FAQ-section {
+    padding: 20px 10px;
+  }
+  .FAQ-section-top button {
+    width: 100%;
+    max-width: none;
+    padding: 12px 8px;
+  }
+  .FAQ-section-content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .FAQ-section-down button {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .FAQ-section-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;;
+}
+
+
+
+.career-opening-content {
+background: #ffffff;
+max-width: 1400px;
+margin: auto;
+width: 100%;
+padding: 100px 10px;
+}
+
+.career-opening-title {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.career-opening-title > h1 {
+font-size: 48px;
+font-weight: 800;
+line-height: 57.6px;
+}
+
+.career-opening-title > p {
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+
+.line {
+border: 2px solid #1f64ff;
+border-radius: 5px;
+width: 50px;
+height: 4px;
+background-color: #1f64ff;
+}
+
+.career-opening-box {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 20px;
+}
+
+.career-opening-box-title {
+background-color: #f5f6fa;
+padding: 20px;
+border-radius: 10px;
+height: 100%;
+}
+
+.career-opening-box-title p {
+ font-size: 18px;
+font-weight: 600;
+}
+
+.career-opening-box-title .engineering {
+color: #1f64ff;
+}
+
+.career-opening-box-content {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.career-opening-box-content-title {
+border: 1px solid #1f64ff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: clamp(50px ,5vw ,110px);
+border-radius: 10px;
+padding: 20px 30px 20px 30px;
+}
+
+.career-opening-box-content-title .item-1 {
+font-weight: 600;
+font-size: 24px;
+line-height: 28.8px;
+width: 200px;
+}
+
+.career-opening-box-content-title .holder {
+font-weight: 500;
+font-size: 16px;
+line-height: 19.2px;
+color: #d4d4d4;
+}
+
+.career-opening-box-content-title .item-2,
+.career-opening-box-content-title .item-3 {
+text-align:center;
+}
+
+.career-opening-box-content-title p {
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+.career-opening-box-content-title i {
+color: #d4d4d4;
+font-size: 20px;
+}
+
+@media (max-width: 900px) {
+  .career-opening-box {
+    flex-direction: column; 
+    gap: 20px; 
+  }
+
+  .career-opening-box-title {
+    order: 1; 
+    width: 100%; 
+    text-align:center; 
+  }
+
+  .career-opening-box-content {
+    order: 2; 
+    width: 100%; 
+    display: grid;
+   padding: 10px;
+   grid-template-columns: 1fr 1fr;
+  }
+
+  .career-opening-box-content-title {
+    flex-direction: column; 
+    gap: 15px; 
+    text-align: center; 
+    padding: 20px 10px; 
+  }
+
+  .career-opening-box-content-title .item-1 {
+    font-size: 22px; 
+  }
+
+  .career-opening-box-content-title .holder {
+    font-size: 14px; 
+  }
+
+  .career-opening-box-content-title i {
+    font-size: 18px; 
+  }
+  .career-opening-title > p {
+    font-size: 16px; 
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .career-opening-title > h1 {
+    font-size: 36px; 
+  }
+
+
+  .career-opening-title > p {
+    font-size: 16px; 
+    margin-left: 5px;
+  }
+
+  .career-opening-box-content-title .item-1 {
+    font-size: 20px; 
+  }
+
+  .career-opening-box-content-title .holder {
+    font-size: 12px; 
+  }
+
+  .career-opening-box-content-title i {
+    font-size: 16px; 
+  }
+ 
+  .career-opening-box-content {
+    order: 2; 
+    width: 100%; 
+    display: grid;
+   padding: 10px;
+   grid-template-columns: 1fr ;
+  }
+ 
+}
+
+.career-opening {
+  background: #ffffff;
+  max-width: 1400px;
+  margin: auto;
+  width: 100%;
+  padding: 40px 10px; 
+}
+
+/* Title Section */
+.career-opening-title {
+  margin-top: 60px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.career-opening-title h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+}
+
+.career-opening-title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.line {
+  border: 2px solid #1f64ff;
+  border-radius: 5px;
+  width: 50px;
+  height: 4px;
+  background-color: #1f64ff;
+}
+
+
+.career-opening-job-section {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Job Details Section */
+.career-opening-job-details {
+  flex: 3;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-opening-job-details h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.career-opening-job-details h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.career-opening-job-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.career-opening-job-details ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+
+}
+
+.career-opening-job-details p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
+}
+
+/* Job Summary Section */
+.career-opening-job-summary {
+  flex: 1;
+  padding: 30px;
+  height: 716px;
+  background-color: #f5f6fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-opening-job-summary h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.career-opening-job-summary ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.career-opening-job-summary ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.career-opening-job-summary i {
+  color: #000;
+  width: 32px;
+  font-size: 20px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.job-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-info .title {
+  font-weight: 600;
+  color: #555;
+}
+
+.job-info .detail {
+  font-weight: 400;
+  color: #333;
+  margin-top: 3px;
+}
+
+.career-opening-job-summary-button {
+  display: flex;
+  justify-content: center; 
+  margin-top: 40px;
+}
+
+.career-opening-job-summary button {
+  width: 50%; 
+  padding: 10px;
+  background-color: #1f64ff;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+.career-opening-job-summary button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@media (max-width: 900px) {
+  .career-opening-job-section {
+      flex-direction: column;
+  }
+
+  .career-opening-job-details, .career-opening-job-summary {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .career-opening-title h1 {
+      font-size: 36px;
+  }
+
+  .career-opening-title p {
+      font-size: 16px;
+  }
+
+  .career-opening-job-details h1 {
+      font-size: 24px;
+  }
+
+  .career-opening-job-summary h3 {
+      font-size: 20px;
+  }
+}
+
